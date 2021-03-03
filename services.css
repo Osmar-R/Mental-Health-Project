@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background: #006a71;
+
+}
+
+/* Nav Bar */
+
+
+.navbar {
+    height: 5rem;
+    width: 100%;
+    background-color: #ecf4f3;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .navbar a {
+    color: black;
+    padding: 0px 2.5rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
+
+
+  .navbar a:hover {
+    background: #ff7e67;
+    color: whitesmoke;
+    font-weight: bolder;
+    border-radius:100%;
+  }
+
+
+.Main_Logo {
+    height: 4.9rem;
+    width: 18rem;
+    padding-right: 30px;
+    border-right: double grey 3px;
+}
+
+/* Hero Section */
+
+
+.Background-Image-1st-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://files.slack.com/files-pri/T5VCY49B3-F01D688FNFN/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    width: 100%;
+  
+}
+
+.hero-sec-container h2 {
+    margin: 0 auto;
+    font-size: 25px;
+    color: #fff;
+    border: 2px solid #ecf4f3;
+    width:70%;
+    font-weight: 500;
+    border-radius: 7px;
+    transition: 600ms;
+    position: relative;
+    top: 250px;
+    font-family: 'Cinzel', serif;
+    
+}
+.hero-sec-container h1 {
+  font-size: 60px;
+  color:#fff;
+  position: relative;
+  top: 150px;
+  font-family: 'Cinzel', serif;
+}
+
+
+.hero-sec-container h2:hover {
+    color: #ff7e67;
+    background-color: #000;
+    box-shadow: 2px 2px 15px;
+}
+
+.hero-sec-container h1:hover{
+  color: #ff7e67;
+}
+
+
+
+/* Card Activiites Seciton */
+
+.cards {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: auto;
+  gap: 100px;
+  font-family: sans-serif;
+  padding: 60px 0 60px;  
+  
+}
+
+
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  border-top: 2px solid #ff7e67;
+  border-right: 2px solid #ff7e67;
+  border-left: 2px solid #ff7e67;
+}
+
+.card-content {
+  line-height: 1.5;
+  font-size: 1em;
+  padding: 15px;
+  background:#ecf4f3;
+  border-right: 2px solid #ff7e67;
+  border-left: 2px solid #ff7e67;
+  height: 300px;
+}
+
+.card-content > p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+}
+
+.card-info {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: 	#ff7e67;
+  font-size: 0.8em;
+  border-top: 2px solid #000;
+}
+
+.card-info p {
+  font-size: 1.1em;
+  margin-right: 8px;
+  color: black;
+  font-weight: 700;
+}
+
+.card-link {
+  color: white;
+  text-decoration: none;
+}
+
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 420px;
+  padding-top: 40px;
+  color:#ecf4f3;
+  font-family: 'Cinzel', serif;
+}
+
+.titleV2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 320px;
+  color:#ecf4f3;
+  font-family: 'Cinzel', serif;
+  padding-bottom: 60px;
+}
+
+/* Third Section */
+
+
+
+.home-details {
+  display: flex;
+  justify-content: space-between;
+  height: 280px;
+  background: #ecf4f3;
+  border: 1px solid #ff7e67;
+}
+
+.detail-container {
+  width: 800px;
+  margin: 50px auto;
+  color: black;
+}
+
+.detail-container p {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+}
+.detail-container h1 {
+  display: flex;
+justify-content: center; 
+position: relative;
+bottom: 20px;
+}
+
+.box-img-1 {
+  background: url(https://www.wtvq.com/wp-content/uploads/2018/09/Safe-place-morehead.jpg);
+  background-size: cover;
+
+}
+
+.box-img-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: white;
+
+}
+
+.btn-for-safe {
+  position: relative;
+  top: 20px;
+  
+}
+
+
+/* Homepage "Learn more" Button */
+
+.btn-for-home, .btn-for-safe {
+  color: #000;
+  background-color: #fff;
+  padding: 12px 0px;
+  display: block;
+  width: 120px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 600ms;
+  text-align: center; 
+}
+
+.btn-for-home:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Button for ONE CARD (right top one) */
+
+.btn-for-home-2 {
+  color: #000;
+  background-color: #fff;
+  padding: 12px 0px;
+  display: block;
+  width: 120px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 600ms;
+  text-align: center; 
+  position: relative;
+  left: 150px;
+}
+
+#footer {
+  background: white;
+  color: #F46969;
+  padding: 7px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+}

@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background: #006a71;
+
+}
+
+/* Nav Bar */
+
+.navbar {
+    height: 5rem;
+    width: 100%;
+    background-color: #ecf4f3;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .navbar a {
+    color: black;
+    padding: 0px 2.5rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
+
+
+  .navbar a:hover {
+    background: #ff7e67;
+    color: whitesmoke;
+    font-weight: bolder;
+    border-radius:100%;
+  }
+
+
+.Main_Logo {
+    height: 4.9rem;
+    width: 18rem;
+    padding-right: 30px;
+    border-right: double grey 3px;
+}
+
+#main-header{
+  background-image: url('images/mental-health\ img.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   height:400px;
+ }
+ 
+ #main-header h1{
+     font-size: 75px;
+     font-family: 'Cinzel', serif;
+     color: white;
+     position: absolute;
+     top: 30%;
+     left: 20%;
+     -webkit-font-smoothing: antialiased;
+     text-rendering: optimizeLegibility;
+     
+ 
+ }
+ 
+ #content{
+     margin: 0 auto;
+     width: 800px;
+     
+ 
+ }
+ #content h2, h3{
+     margin: 0;
+     padding: 15px 0;
+     font-family: 'Cinzel', serif;
+     font-size: 40px;
+     color: #FF7E67;
+     text-align: left;
+     -webkit-font-smoothing: antialiased;
+     text-rendering: optimizeLegibility;
+     text-decoration: underline #68b0ab;
+     
+     
+     
+ }
+ 
+ #content p{
+     font-size: 21px;
+     padding: 0px 20px 0px 0px;
+     color: white;
+     -webkit-font-smoothing: antialiased;
+     text-rendering: optimizeLegibility;
+ }
+ 
+ #our-mission{
+     float: right;
+     width: 470px;
+     padding: 10px 15px;
+    border-radius: 25px;
+     background-attachment: fixed;   
+ }
+ 
+/* Footer */
+
+#footer {
+  background: white;
+  color: #F46969;
+  padding: 7px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+}
